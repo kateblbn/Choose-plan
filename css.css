@@ -6,8 +6,9 @@ body {
 .price {
     padding-top: 50px;
     text-align: center;
-
 }
+
+
 
 .fa-check {
     color:rgb(8, 200, 8);
@@ -15,12 +16,37 @@ body {
 .fa-xmark {
     color:rgb(194, 81, 20);
 }
+.wrapColor {
+    .red {
+        background-color:#d37a7a;
+    }
+    .blue {
+        background-color:rgb(129, 129, 230);
+    }
+    .yellow {
+        background-color: rgb(218, 218, 156);
+    }
+    
+}
 
 .plans {
     display: flex;
     justify-content: center;
     flex-direction: row;
     margin-top: 30px;
+}
+.price__t-s {
+    justify-content: center;
+    .price__title {
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .price__subtitle {
+        font-size: 27px;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
 }
 .price__wrap {
     width: 250px;
